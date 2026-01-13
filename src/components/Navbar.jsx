@@ -1,6 +1,6 @@
 import { Link, NavLink } from "react-router-dom"
 import Profile from "../Profile"
-
+import LogoutButton from "../LogoutButton";
 function Navbar() {
   return (
     <nav className="navbar">
@@ -9,8 +9,8 @@ function Navbar() {
       <ul className="nav-links">
         <li className="nav-profile">
           <Profile />
-        </li>
 
+        </li>
         <li>
           <NavLink to="/" end>Home</NavLink>
         </li>
@@ -20,6 +20,7 @@ function Navbar() {
         <li>
           <NavLink to="/about">About</NavLink>
         </li>
+        <li className="navbar-button"><LogoutButton/></li>
       </ul>
     </nav>
   );
