@@ -36,7 +36,7 @@ function Menu() {
 
   return (
     <div className="menu">
-      <h1>Our Menu</h1>
+      <h1 style={{color:'#4caf50'}}>Our Menu</h1>
       {fethError && (<p>Unable to fetch Smothies</p>)}
       {smoothies && (
         <div className="smoothies">

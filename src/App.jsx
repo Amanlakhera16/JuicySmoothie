@@ -87,7 +87,7 @@ if (!isAuthenticated) {
       </Routes>
 
       {/* Optional profile and logout section */}
-      <div className="app-container">
+      {/* <div className="app-container">
         <div className="main-card-wrapper">
           <div className="logged-in-section">
             <div className="logged-in-message">✅ Successfully authenticated!</div>
@@ -98,7 +98,7 @@ if (!isAuthenticated) {
             <LogoutButton />
           </div>
         </div>
-      </div>
+      </div> */}
 
       <Footer />
     </>
